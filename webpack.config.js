@@ -40,6 +40,7 @@ module.exports = {
         contentBase: path.join(__dirname, "./build"), // 이 경로에 있는 파일이 변경될 때 번들을 다시 컴파일
         index: "index.html",
         compress: true,
-        port: 3000, // 각자의 portNumber 작성
+        port: 3000,
+//      host: "0.0.0.0", // localhost 외 환경에서 사용
     },
 };
